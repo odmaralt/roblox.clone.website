@@ -387,18 +387,17 @@
   font-family: sans-serif;
 }
 
-.footer a{
-
+.footer a {
   text-decoration: none;
   color: #bdbebe;
 }
 
 #aboutus {
-padding-left: 290px;
+  padding-left: 290px;
 }
 
 #privacy {
-padding-right: 310px;
+  padding-right: 310px;
 }
 
 #line {
@@ -411,10 +410,10 @@ padding-right: 310px;
 }
 
 .selectlang {
-  background-color:#232527;
-  color:hsla(0, 0%, 100%, .7);
+  background-color: #232527;
+  color: hsla(0, 0%, 100%, 0.7);
   border-radius: 3px;
-  border-color: #b8b8b8; 
+  border-color: #b8b8b8;
   font-weight: 500;
   font-family: sans-serif;
   width: 50%;
@@ -427,6 +426,68 @@ padding-right: 310px;
 #font {
   margin-top: 12px;
   font-weight: 500;
-font-size: 10px;
-margin-left: 12px;
+  font-size: 10px;
+  margin-left: 12px;
+}
+
+@media screen and (max-width: 850px) {
+  .appstore {
+    margin-left: 0;
+  }
+  #privacy {
+    padding-right: 6px;
+  }
+  #aboutus {
+    padding-left: 0px;
+  }
+  #line {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .indent {
+    display: flex;
+    justify-content: center;
+  }
+  .download {
+    display: inline;
+  }
+  .indent1 {
+    justify-content: center;
+    display: flex;
+  }
+  #as {
+    display: inline;
+    font-size: 12px;
+    letter-spacing: 0.7px;
+  }
+  .giftcards {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: space-between;
+    padding-bottom: 34px;
+  }
+  .about {
+    display: flex;
+
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: space-between;
+    padding-bottom: 14px;
+    padding-top: 30px;
+  }
+
+}
+
+
+@media screen and (max-width: 520px) {
+  .indent {
+    display: none;
+
+  }
+  .indent1 {
+    display: none;
+  }
 }
