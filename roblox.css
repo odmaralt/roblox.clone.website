@@ -443,6 +443,19 @@
   #line {
     margin-left: 0;
   }
+  .microsoft {
+    display: none;
+
+  }
+  .xbox {
+    display: none;
+  }
+  .download {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -479,6 +492,10 @@
     padding-top: 30px;
   }
 
+  #robloxlogo {
+    padding-top: 90px;
+  }
+
 }
 
 
@@ -488,6 +505,25 @@
 
   }
   .indent1 {
+    display: none;
+  }
+  .navbox {
+    min-width: 0;
+  }
+  #robloxlogo {
+    padding-top: 90px;
+  }
+  .roblox {
+    display: inline-block;
+    background-size: cover;
+  }
+  .footer {
+    display: inline-block;
+  }
+  #as {
+    display: inline-block;
+  }
+  .amazon {
     display: none;
   }
 }
