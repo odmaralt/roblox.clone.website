@@ -122,7 +122,6 @@
 }
 
 .threebox {
-  border-radius: 8px;
   padding-top: 8px;
   display: inline-table;
 }
@@ -519,6 +518,7 @@
   }
   .footer {
     display: inline-block;
+    min-width: 100%;
   }
   #as {
     display: inline-block;
